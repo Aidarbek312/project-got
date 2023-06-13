@@ -1,7 +1,12 @@
 import React from "react";
+import Characters from "../components/Characters/Characters";
 
 const CharactersPage = () => {
-  return <div>CharactersPage</div>;
+  return (
+    <>
+      <Characters />
+    </>
+  );
 };
 
 export default CharactersPage;
